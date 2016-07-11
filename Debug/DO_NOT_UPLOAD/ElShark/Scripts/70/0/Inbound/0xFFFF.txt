@@ -1,0 +1,8 @@
+using (ScriptAPI) {
+	AddShort("Packet Size");
+	AddUShort("MapleStory Version");
+	AddString("MapleStory Patch Location");
+	AddField("Local Initializing Vector (IV)", 4);
+	AddField("Remote Initializing Vector (IV)", 4);
+	AddByte("MapleStory Locale");
+}

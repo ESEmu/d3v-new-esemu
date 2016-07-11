@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\Configuration Manager">
+      <UniqueIdentifier>{60295c95-bb75-43ed-9134-1274bcbf04dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network">
+      <UniqueIdentifier>{82fecc73-1a68-4fee-8b99-e8ca3591829a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\LUA">
+      <UniqueIdentifier>{eb475abd-ba99-4f62-a603-02adaa48c0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\DB Handler">
+      <UniqueIdentifier>{9d5408ff-2f1e-49c1-86a1-df9c41ee0514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Anti SQLi">
+      <UniqueIdentifier>{4eae5be3-75e0-4737-911e-d21261daf742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\DB Handler\MySQL">
+      <UniqueIdentifier>{1c1ee51a-6833-4527-a3a3-c10a3339f419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Common">
+      <UniqueIdentifier>{d864dd2d-3a2a-458f-a78b-16bdbf4be729}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfManager\ConfigReader.cpp">
+      <Filter>File di intestazione\Configuration Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHandler\DBHandler.cpp">
+      <Filter>File di intestazione\DB Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiSQLi\AntiSQLi.cpp">
+      <Filter>File di intestazione\Anti SQLi</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConfManager\ConfigReader.h">
+      <Filter>File di intestazione\Configuration Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\TransitionStructs.h">
+      <Filter>File di intestazione\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lauxlib.h">
+      <Filter>File di intestazione\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lua.h">
+      <Filter>File di intestazione\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lua.hpp">
+      <Filter>File di intestazione\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\luaconf.h">
+      <Filter>File di intestazione\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lualib.h">
+      <Filter>File di intestazione\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHandler\DBHandler.h">
+      <Filter>File di intestazione\DB Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiSQLi\AntiSQLi.h">
+      <Filter>File di intestazione\Anti SQLi</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\config-netware.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\config-os2.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\config-win.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\errmsg.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\m_ctype.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\m_string.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_alloc.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_dbug.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_getopt.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_global.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_list.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_pthread.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\my_sys.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\mysql.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\mysql_com.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\mysql_embed.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\mysql_time.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\mysql_version.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\mysqld_error.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\raid.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="MySQL\typelib.h">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Common.h">
+      <Filter>File di intestazione\Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MySQL\libmysql.def">
+      <Filter>File di intestazione\DB Handler\MySQL</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="File di origine">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="File di risorse">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="File di intestazione\Common">
+      <UniqueIdentifier>{ce53e46d-79f8-40ab-832c-9913476c94c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\DBHandler">
+      <UniqueIdentifier>{4c1a3b0a-68b5-43d8-99c4-3a864c463af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Common\LUA">
+      <UniqueIdentifier>{37ec8952-9631-4286-8a6b-83f5ba806208}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\ConfManager">
+      <UniqueIdentifier>{5c75bae5-2ef9-4f7a-be66-95f152837bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Crypto">
+      <UniqueIdentifier>{6a55d302-adc6-4f95-9746-b3289b2aa163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network">
+      <UniqueIdentifier>{c3ab5f17-d28a-4dde-b8d5-94820a5645f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Login Server">
+      <UniqueIdentifier>{cbb744df-b8ec-499f-8312-60362638c3c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Game Server">
+      <UniqueIdentifier>{76249cc2-6ad1-4fdb-a731-6e1538db3f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Inner Server">
+      <UniqueIdentifier>{f083bb0a-20ba-435d-9a49-8c378316b2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Login Server\Client">
+      <UniqueIdentifier>{8e821685-5b07-4903-b315-7e61777e112e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Login Server\Server">
+      <UniqueIdentifier>{014d99cb-50ce-44c6-ba4e-00bdd95c3f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Game Server\Client">
+      <UniqueIdentifier>{e535d0f7-5afc-44d5-be3e-247abd2a087a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Game Server\Server">
+      <UniqueIdentifier>{bdac432c-6dfe-4a2c-8b49-0ab116a3b498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Network\Packet Handler">
+      <UniqueIdentifier>{5ea97d4f-b975-483c-b238-c37adfdfbfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUA System">
+      <UniqueIdentifier>{f549eb04-db2e-4dbb-b829-94ac183cdda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Thread Manager">
+      <UniqueIdentifier>{ba0c7277-60af-44c9-8698-830c0226f838}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security">
+      <UniqueIdentifier>{a781b0ea-4d25-460f-a05f-9e492bda0718}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\AntiDDoS">
+      <UniqueIdentifier>{2b715c47-c167-464b-b7a4-c3e8e0345772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\AntiSQLi">
+      <UniqueIdentifier>{f53e4c89-c98e-4e3b-ae44-a8d89f1d9aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game">
+      <UniqueIdentifier>{7876137a-2e1c-4f9d-aef1-4fac7b1917b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Extensions">
+      <UniqueIdentifier>{314c8c5a-ba58-46c2-be35-568d12cea902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Modes">
+      <UniqueIdentifier>{816d5896-b105-43c3-9fc2-eb4a51e71f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Player">
+      <UniqueIdentifier>{396adfda-2102-4c8e-ba11-10eaabddcf0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\World">
+      <UniqueIdentifier>{4d074828-63f0-46ea-b5c8-fde3e4fdeb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Extensions\Jobs System">
+      <UniqueIdentifier>{082542be-6a5e-4afe-934e-60cb40b0861a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Modes\Region Handler">
+      <UniqueIdentifier>{a96fbede-eabb-4abb-b302-23bcc03fb119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Providers">
+      <UniqueIdentifier>{9759bcbf-3e27-4632-a3d1-93dee03dee37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File di intestazione\Game\Player\ESEAH Handlers">
+      <UniqueIdentifier>{10f69a9a-3493-42c8-b63c-c9592276d44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Security\License Manager">
+      <UniqueIdentifier>{70cfda32-c838-447f-844c-31c64f345b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUA System\Game Engine">
+      <UniqueIdentifier>{d1300ea5-8096-4cc2-b94d-f4877a4afeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUA System\Game Engine\Entities">
+      <UniqueIdentifier>{d6798329-7dbf-4b47-aee7-b685be404356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LUA System\Game Engine\Classes">
+      <UniqueIdentifier>{e72b6732-6576-4f0e-bbfb-0e122d25ea8f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiSQLi\AntiSQLi.cpp">
+      <Filter>Security\AntiSQLi</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Random.cpp">
+      <Filter>File di intestazione\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Time.cpp">
+      <Filter>File di intestazione\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DBHandler\DBHandler.cpp">
+      <Filter>File di intestazione\DBHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfManager\ConfigReader.cpp">
+      <Filter>File di intestazione\ConfManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Crypto\Crypto.cpp">
+      <Filter>File di intestazione\Crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SockHandler.cpp">
+      <Filter>File di intestazione\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet Handler\Packet Handler.cpp">
+      <Filter>File di intestazione\Network\Packet Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="LUAEngine\LUASystem.cpp">
+      <Filter>LUA System</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread Manager\_PriorityEngine.cpp">
+      <Filter>File di intestazione\Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread Manager\Thread Manager.cpp">
+      <Filter>File di intestazione\Thread Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDDoS\AntiDDoS.cpp">
+      <Filter>Security\AntiDDoS</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Constants.cpp">
+      <Filter>File di intestazione\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Extensions\Job System\Job System.cpp">
+      <Filter>File di intestazione\Game\Extensions\Jobs System</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Modes\Region Handler\RIP Locker.cpp">
+      <Filter>File di intestazione\Game\Modes\Region Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Modes\Region Handler\SRP System.cpp">
+      <Filter>File di intestazione\Game\Modes\Region Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Modes\PvP Handler.cpp">
+      <Filter>File di intestazione\Game\Modes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World\Dungeon Handler.cpp">
+      <Filter>File di intestazione\Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World\Map Handler.cpp">
+      <Filter>File di intestazione\Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World\World Handler.cpp">
+      <Filter>File di intestazione\Game\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Inventory Handler.cpp">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Item Handler.cpp">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Party Handler.cpp">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Skill Handler.cpp">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Skill Inventory Handler.cpp">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Providers\DDataProvider.cpp">
+      <Filter>File di intestazione\Game\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Providers\IDataProvider.cpp">
+      <Filter>File di intestazione\Game\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Providers\MDataProvider.cpp">
+      <Filter>File di intestazione\Game\Providers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\Player.cpp">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player\ESEAH Handlers\ESEAH Handler.cpp">
+      <Filter>File di intestazione\Game\Player\ESEAH Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="License Manager\License Manager.cpp">
+      <Filter>Security\License Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiSQLi\AntiSQLi.h">
+      <Filter>Security\AntiSQLi</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Credits.h">
+      <Filter>File di intestazione\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Random.h">
+      <Filter>File di intestazione\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Rangers.h">
+      <Filter>File di intestazione\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Time.h">
+      <Filter>File di intestazione\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DBHandler\DBHandler.h">
+      <Filter>File di intestazione\DBHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lauxlib.h">
+      <Filter>File di intestazione\Common\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lua.h">
+      <Filter>File di intestazione\Common\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lua.hpp">
+      <Filter>File di intestazione\Common\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\luaconf.h">
+      <Filter>File di intestazione\Common\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="LUA\include\lualib.h">
+      <Filter>File di intestazione\Common\LUA</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfManager\ConfigReader.h">
+      <Filter>File di intestazione\ConfManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\Crypto.h">
+      <Filter>File di intestazione\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\TransitionStructs.h">
+      <Filter>File di intestazione\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Client\REQ_AUTH.h">
+      <Filter>File di intestazione\Network\Login Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_AUTH.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SockHandler.h">
+      <Filter>File di intestazione\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_KEYEXCHANGE.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet Handler\Packet Handler.h">
+      <Filter>File di intestazione\Network\Packet Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Client\REQ_KEEPALIVE.h">
+      <Filter>File di intestazione\Network\Login Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_KEEPALIVE.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Client\REQ_DATE.h">
+      <Filter>File di intestazione\Network\Login Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_DATE.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\LUASystem.h">
+      <Filter>LUA System</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread Manager\_PriorityEngine.h">
+      <Filter>File di intestazione\Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread Manager\Thread Manager.h">
+      <Filter>File di intestazione\Thread Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiDDoS\AntiDDoS.h">
+      <Filter>Security\AntiDDoS</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Client\REQ_CHANNELLIST.h">
+      <Filter>File di intestazione\Network\Login Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Client\REQ_LOGIN_CLOSE.h">
+      <Filter>File di intestazione\Network\Login Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Client\REQ_SERVERLIST.h">
+      <Filter>File di intestazione\Network\Login Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_CHANNELLIST.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_CHANNELLIST_ACK.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_LOGIN_CLOSE.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_SERVERLIST.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Login Server\Server\AK_SERVERLIST_ACK.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\_Included_OPCodes.h">
+      <Filter>File di intestazione\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\OPCodes.h">
+      <Filter>File di intestazione\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CHECKVERSION.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHECKVERSION.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHECKVERSION_ACK1.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHECKVERSION_ACK2.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHECKVERSION_ACK3.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_SESSIONCHECK.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_SESSIONCHECK_ACK1.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_SESSIONCHECK_ACK2.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_SESSIONCHECK.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_SESSIONCHECK2.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_SESSIONCHECK2.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_DATECHECK.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_DATECHECK.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CURRENTIP.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CURRENTIP.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CHARDATA.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHARDATA.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHARDATA_ACK1.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHARDATA_ACK2.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Constants.h">
+      <Filter>File di intestazione\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CHARCREATE.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CHECKCHARNAME.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHECKCHARNAME.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHARCREATE.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_AUTHTOKEN.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_AUTHTOKEN.h">
+      <Filter>File di intestazione\Network\Login Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_PINCODE_REQ.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CHECKPINCODE.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_PINCODE_ACK.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Client\REQ_CHECKVALIDSERVER.h">
+      <Filter>File di intestazione\Network\Game Server\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Game Server\Server\AK_CHECKVALIDSERVER.h">
+      <Filter>File di intestazione\Network\Game Server\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Extensions\Job System\Job System.h">
+      <Filter>File di intestazione\Game\Extensions\Jobs System</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Modes\Region Handler\RIP Locker.h">
+      <Filter>File di intestazione\Game\Modes\Region Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Modes\Region Handler\SRP System.h">
+      <Filter>File di intestazione\Game\Modes\Region Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Modes\PvP Handler.h">
+      <Filter>File di intestazione\Game\Modes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World\Dungeon Handler.h">
+      <Filter>File di intestazione\Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World\Map Handler.h">
+      <Filter>File di intestazione\Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World\World Handler.h">
+      <Filter>File di intestazione\Game\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Inventory Handler.h">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Party Handler.h">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Skill Handler.h">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Skill Inventory Handler.h">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Item Handler.h">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Providers\DDataProvider.h">
+      <Filter>File di intestazione\Game\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Providers\IDataProvider.h">
+      <Filter>File di intestazione\Game\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Providers\MDataProvider.h">
+      <Filter>File di intestazione\Game\Providers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\Player.h">
+      <Filter>File di intestazione\Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player\ESEAH Handlers\ESEAH Handler.h">
+      <Filter>File di intestazione\Game\Player\ESEAH Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="License Manager\License Manager.h">
+      <Filter>Security\License Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Game Engine.h">
+      <Filter>LUA System\Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Classes\cBattlefield.h">
+      <Filter>LUA System\Game Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Classes\cGeneric.h">
+      <Filter>LUA System\Game Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Classes\cMob.h">
+      <Filter>LUA System\Game Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Classes\cPlayer.h">
+      <Filter>LUA System\Game Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Classes\cPvP_GameModes.h">
+      <Filter>LUA System\Game Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Classes\cWorld.h">
+      <Filter>LUA System\Game Engine\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Entities\eEntities.h">
+      <Filter>LUA System\Game Engine\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LUAEngine\Game Engine\Entities\eRules.h">
+      <Filter>LUA System\Game Engine\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

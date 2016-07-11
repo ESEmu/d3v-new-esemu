@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7D429425-A944-4BC8-B150-D2A774FB08FA}</ProjectGuid>
+    <RootNamespace>ESEmuServerInnerCore</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LibraryPath>C:\MySQL\lib;C:\Users\d3vil401\Documents\Visual Studio 2013\Projects\ESEmu Server - d3v\ESEmu Server - Inner Core\LUA;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\boost;C:\MySQL\include;C:\Users\d3vil401\Documents\Visual Studio 2013\Projects\ESEmu Server - d3v\ESEmu Server - Inner Core\LUA\include;$(IncludePath)</IncludePath>
+    <TargetName>ESEmu ICore</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LibraryPath>C:\MySQL\lib;C:\Users\d3vil401\Documents\Visual Studio 2013\Projects\ESEmu Server - d3v\ESEmu Server - Inner Core\LUA;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\boost;C:\MySQL\include;C:\Users\d3vil401\Documents\Visual Studio 2013\Projects\ESEmu Server - d3v\ESEmu Server - Inner Core\LUA\include;$(IncludePath)</IncludePath>
+    <TargetName>ESEmu ICore</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GE_LUA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>GE_LUA;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>/NODEFAULTLIB:LIBCMT %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiSQLi\AntiSQLi.cpp" />
+    <ClCompile Include="ConfManager\ConfigReader.cpp" />
+    <ClCompile Include="DBHandler\DBHandler.cpp" />
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiSQLi\AntiSQLi.h" />
+    <ClInclude Include="Common\Common.h" />
+    <ClInclude Include="ConfManager\ConfigReader.h" />
+    <ClInclude Include="DBHandler\DBHandler.h" />
+    <ClInclude Include="LUA\include\lauxlib.h" />
+    <ClInclude Include="LUA\include\lua.h" />
+    <ClInclude Include="LUA\include\lua.hpp" />
+    <ClInclude Include="LUA\include\luaconf.h" />
+    <ClInclude Include="LUA\include\lualib.h" />
+    <ClInclude Include="MySQL\config-netware.h" />
+    <ClInclude Include="MySQL\config-os2.h" />
+    <ClInclude Include="MySQL\config-win.h" />
+    <ClInclude Include="MySQL\errmsg.h" />
+    <ClInclude Include="MySQL\mysql.h" />
+    <ClInclude Include="MySQL\mysqld_error.h" />
+    <ClInclude Include="MySQL\mysql_com.h" />
+    <ClInclude Include="MySQL\mysql_embed.h" />
+    <ClInclude Include="MySQL\mysql_time.h" />
+    <ClInclude Include="MySQL\mysql_version.h" />
+    <ClInclude Include="MySQL\my_alloc.h" />
+    <ClInclude Include="MySQL\my_dbug.h" />
+    <ClInclude Include="MySQL\my_getopt.h" />
+    <ClInclude Include="MySQL\my_global.h" />
+    <ClInclude Include="MySQL\my_list.h" />
+    <ClInclude Include="MySQL\my_pthread.h" />
+    <ClInclude Include="MySQL\my_sys.h" />
+    <ClInclude Include="MySQL\m_ctype.h" />
+    <ClInclude Include="MySQL\m_string.h" />
+    <ClInclude Include="MySQL\raid.h" />
+    <ClInclude Include="MySQL\typelib.h" />
+    <ClInclude Include="Network\TransitionStructs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MySQL\libmysql.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

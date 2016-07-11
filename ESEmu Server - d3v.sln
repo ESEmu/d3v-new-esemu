@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESEmu Server - Login e Game", "ESEmu Server - d3v\ESEmu Server - d3v.vcxproj", "{C4386455-7D6B-45F3-83C3-968F95BC2B05}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESEmu Server - Inner Core", "ESEmu Server - Inner Core\ESEmu Server - Inner Core.vcxproj", "{7D429425-A944-4BC8-B150-D2A774FB08FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4386455-7D6B-45F3-83C3-968F95BC2B05}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C4386455-7D6B-45F3-83C3-968F95BC2B05}.Debug|Win32.Build.0 = Debug|Win32
+		{C4386455-7D6B-45F3-83C3-968F95BC2B05}.Release|Win32.ActiveCfg = Release|Win32
+		{C4386455-7D6B-45F3-83C3-968F95BC2B05}.Release|Win32.Build.0 = Release|Win32
+		{7D429425-A944-4BC8-B150-D2A774FB08FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D429425-A944-4BC8-B150-D2A774FB08FA}.Debug|Win32.Build.0 = Debug|Win32
+		{7D429425-A944-4BC8-B150-D2A774FB08FA}.Release|Win32.ActiveCfg = Release|Win32
+		{7D429425-A944-4BC8-B150-D2A774FB08FA}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

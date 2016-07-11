@@ -1,0 +1,15 @@
+#pragma once
+#ifndef _eLUAENTITIES_H_
+#define _eLUAENTITIES_H_
+
+static enum _ENTITY_TYPE
+{
+	ENTITY_NONE,
+	ENTITY_PLAYER,
+	ENTITY_MONSTER,
+	ENTITY_OBJECT,
+	ENTITY_NPC,
+	ENTITY_LAST
+};
+
+#endif

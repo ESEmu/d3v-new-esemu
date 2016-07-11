@@ -1,0 +1,1 @@
+taskkill -im x2.exe -f

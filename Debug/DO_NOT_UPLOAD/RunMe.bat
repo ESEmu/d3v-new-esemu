@@ -1,0 +1,1 @@
+rinetd -c config.txt
